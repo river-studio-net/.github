@@ -1,9 +1,9 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: post
+title:  "Welcome to River Studio!"
+date:   2026-03-18 21:41:10 +0200
+categories: studio update
 ---
-
 Hello there! River Studio is my solo-preneur studio for open source software specializing in Python, memes and community.
 
 # Who Am I
