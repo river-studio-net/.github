@@ -28,6 +28,8 @@ url: "https://river-studio.net"
 github:
   username: river-studio-net
 
+future: false
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
