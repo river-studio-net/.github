@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Developer Journey"
-date:   2026-03-28 16:00:00 +0200
+date:   2026-03-28 16:00:00 +0300
 categories: python git learning my-journey
 ---
 
