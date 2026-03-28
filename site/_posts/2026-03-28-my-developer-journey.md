@@ -2,7 +2,7 @@
 layout: post
 title:  "A Hindsight on My Journey as a Developer"
 date:   2026-03-28 16:00:00 +0300
-categories: python git learning my-journey
+tags: python git learning my-journey
 ---
 
 ![[Pasted image 20240103112519.png]]
