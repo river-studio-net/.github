@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python and the JVM - A Love Story"
-date:   2026-05-15 17:00:00 -1000
+date:   2026-04-15 16:00:00 -1000
 tags: python java lecture
 ---
 
