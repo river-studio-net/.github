@@ -2,11 +2,13 @@
 layout: post
 title:  "Python and the JVM - A Love Story"
 date:   2026-04-15 16:00:00 -1000
-tags: python java lecture
+tags: python jvm scala fatapi pycon lecture apache-sprak
 ---
 
-> **Disclosure**: This post was first presented as a talk at *PyCon US 2026*. A link to the talk will be added in the future. 
+> This post was first presented as a talk at *PyCon US 2026*. 
 {: .prompt-info }
+
+{% include embed/youtube.html id='mtRjYEAuGZA' %}
 
 *Baby, just say yes!* 
 Teach your Python program(er)s the love language of the JVM with `Py4J` - a high-performance tool to leverage the power of the JVM from within Python itself for performance, fun and profit. 
