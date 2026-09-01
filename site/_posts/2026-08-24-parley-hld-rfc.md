@@ -2,7 +2,7 @@
 layout: post
 title:  "Parley High Level Design RFC"
 date:   2026-08-24 10:00:00 +0000
-tags: rust design parley rfc parley-server
+tags: rust design parley rfc parley-server architecture
 ---
 
 ## Parley

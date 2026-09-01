@@ -2,7 +2,7 @@
 layout: post
 title:  "Choosing an IAM Provider for Parley"
 date:   2026-08-27 10:00:00 +0000
-tags: rust design parley parley-server
+tags: rust design parley parley-server architecture
 ---
 
 ## Choosing An Identity Provider For Parley
