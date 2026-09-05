@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://river-studio.net"
 
 activitypub:
-  preferred_username: "river@woof.tech"
+  preferred_username: "river"
 
 github:
   username: river-studio-net
