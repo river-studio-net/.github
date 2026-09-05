@@ -69,6 +69,8 @@
           {%- endcapture -%}
         {% when 'rss' %}
           {% assign url = '/feed.xml' | relative_url %}
+        {% when 'activitypub' %}
+          {% assign url = '/activitypub' | relative_url %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}
