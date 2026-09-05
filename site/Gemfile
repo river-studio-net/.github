@@ -14,3 +14,5 @@ end
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
 
 gem "jekyll-wikirefs", "~> 0.0.16"
+gem "jekyll-activitypub-static"
+

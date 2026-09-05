@@ -9,7 +9,9 @@
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
   <meta name="fediverse:creator" content="@river@woof.tech">
-
+  {% if page.activitypub_url %}
+    <link rel="alternate" type="application/activity+json" href="{{ page.activitypub_url }}">
+  {% endif %}
   {%- capture seo_tags -%}
     {% seo title=false %}
   {%- endcapture -%}

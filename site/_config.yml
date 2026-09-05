@@ -16,14 +16,17 @@ timezone: Asia/Jerusalem
 
 title: River Studio
 
-tagline: Software House # it will display as the subtitle
+tagline: Homemade Software House # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  River Studio is an open source software house specializing in Python, Big Data and Cloud technologies.
+  River Studio is an open source software house specializing in Python, Rust, Big Data and Cloud technologies. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://river-studio.net"
+
+activitypub:
+  preferred_username: "river@woof.tech"
 
 github:
   username: river-studio-net
@@ -35,7 +38,7 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: River Studio
   email: git@river-studio.net
-  # fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  fediverse_handle: "@river@woof.tech"
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/river-studio-net
@@ -155,6 +158,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-wikirefs
+  - jekyll-activitypub-static
 
 # The base URL of your site
 baseurl: ""
