@@ -40,9 +40,10 @@ jobs:
           bundle install
           bundle exec jekyll build --destination ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./site/_site
+          include-hidden-files: true
 
   # Deployment job
   deploy:

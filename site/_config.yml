@@ -27,6 +27,8 @@ url: "https://river-studio.net"
 
 activitypub:
   preferred_username: "river"
+  webfinger_output_file: ".well-known/webfinger/index.json"
+
 
 github:
   username: river-studio-net
