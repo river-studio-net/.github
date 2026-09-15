@@ -14,7 +14,7 @@ To get involved and support me in keeping the projects alive you can:
 - Schedule a meeting with me (contact me at <schedule@river-studio.net>)!
 - Supprt me [on Patreon](https://www.patreon.com/cw/RiverStudioNet) for exclusive benefits!
 
-<iframe src="https://discord.com/widget?id=1435000884869202113&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<p align="left"><iframe src="https://discord.com/widget?id=1435000884869202113&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
 
 # Socials
 
