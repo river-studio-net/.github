@@ -154,6 +154,7 @@ pwa:
 paginate: 10
 
 plugins:
+  - jekyll-shields_io
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-archives
