@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 3
+order: 4
 ---
 
 Hello there! River Studio is my solo-preneur studio for open source software specializing in Python, memes and community.
