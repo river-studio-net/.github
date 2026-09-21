@@ -151,11 +151,17 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  sort_field: "date"
+  sort_reverse: true
 
 plugins:
   - jekyll-shields_io
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
