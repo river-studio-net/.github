@@ -9,44 +9,41 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone: Europe/London
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: River Studio
+title: Chirpy # the main title
 
-tagline: Homemade Software House # it will display as the subtitle
-
-author: "@river@woof.tech"
+tagline: A text-focused Jekyll theme # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  River Studio is an open source software house specializing in Python, Rust, Big Data and Cloud technologies. 
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
-url: "https://river-studio.net"
-
-activitypub:
-  preferred_username: "river"
-  webfinger_output_file: ".well-known/webfinger/index.json"
-
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: ""
 
 github:
-  username: river-studio-net
+  username: github_username # change to your GitHub username
 
-future: false
+twitter:
+  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: River Studio
-  email: git@river-studio.net
-  fediverse_handle: "@river@woof.tech"
+  name: your_full_name
+  email: example@domain.com # change to your email address
+  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/river-studio-net
+    - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/shir-havron/
+    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -99,17 +96,27 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn:
+cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/commons/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "/commons/avatar.jpg"
+social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+
+actions:
+  # Display "Edit this post" action on each post page to encourage contributions.
+  edit_post:
+    enabled: false # set to true to display the "Edit this post" action.
+    url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
+    # Use dynamic or static URL for the edit link.
+    # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
+    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
+    static_url: false # [ true | false ]
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
@@ -152,16 +159,6 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
-
-plugins:
-  - jekyll-shields_io
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-include-cache
-  - jekyll-wikirefs
-  - jekyll-activitypub-static
 
 # The base URL of your site
 baseurl: ""
@@ -231,8 +228,10 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [tags]
+  enabled: [categories, tags]
   layouts:
+    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
+    category: /categories/:name/
