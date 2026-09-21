@@ -46,13 +46,8 @@ not_found:
   statement: متأسفیم، لینک زیر معتبر نیست یا به صفحه‌ای که وجود ندارد اشاره می‌کند.
 
 notification:
-  update_found: محتوای جدیدی پیدا شد
+  update_found: نسخه جدیدی از محتوا موجود است.
   update: به‌روزرسانی
-
-theme:
-  light: روشن
-  dark: تیره
-  system: سیستم
 
 # ----- Posts related labels -----
 
@@ -65,7 +60,6 @@ post:
   read_time:
     unit: "دقیقه "
     prompt: " زمان مطالعه"
-  edit: ویرایش این پست
   relate_posts: بیشتر بخوانید
   share: اشتراک‌گذاری
   button:

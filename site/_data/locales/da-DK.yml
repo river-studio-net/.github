@@ -46,13 +46,8 @@ not_found:
   statement: Beklager, vi har malpaceret denne URL, eller den peger på et sted, som ikke findes.
 
 notification:
-  update_found: Der er nyt indhold
+  update_found: En ny version af indholdet er fundet!
   update: Opdater
-
-theme:
-  light: Lys
-  dark: Mørk
-  system: System
 
 # ----- Posts related labels -----
 
@@ -65,7 +60,6 @@ post:
   read_time:
     unit: min
     prompt: læsetid
-  edit: Rediger dette opslag
   relate_posts: Læs videre
   share: Del
   button:

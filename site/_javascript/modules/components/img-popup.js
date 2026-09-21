@@ -32,21 +32,17 @@ export function imgPopup() {
     document.querySelector('.popup.dark') === null
   );
 
-  if (Theme.isDark) {
+  if (Theme.visualState === Theme.DARK) {
     selector = darkImages;
   }
 
   let current = GLightbox({ selector: `${selector}` });
 
-  if (hasDualImages && Theme.isToggleable) {
+  if (hasDualImages && Theme.switchable) {
     let reverse = null;
 
     window.addEventListener('message', (event) => {
-      if (
-        event.source === window &&
-        event.data &&
-        event.data.id === Theme.eventId
-      ) {
+      if (event.source === window && event.data && event.data.id === Theme.ID) {
         [current, reverse] = swapImages(current, reverse);
       }
     });
