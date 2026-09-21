@@ -23,7 +23,6 @@
 {% if page.layout == 'home'
   or page.layout == 'post'
   or page.layout == 'archives'
-  or page.layout == 'category'
   or page.layout == 'tag'
 %}
   {% assign locale = include.lang | split: '-' | first %}
@@ -52,9 +51,9 @@
 {% include jsdelivr-combine.html urls=urls %}
 
 {% case page.layout %}
-  {% when 'home', 'categories', 'post', 'page' %}
+  {% when 'home', 'post', 'page' %}
     {% assign js = page.layout %}
-  {% when 'archives', 'category', 'tag' %}
+  {% when 'archives', 'tag' %}
     {% assign js = 'misc' %}
   {% else %}
     {% assign js = 'commons' %}
@@ -67,6 +66,7 @@
 {% if page.math %}
   <!-- MathJax -->
   <script src="{{ '/assets/js/data/mathjax.js' | relative_url }}"></script>
+  <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="{{ site.data.origin[type].mathjax.js | relative_url }}"></script>
 {% endif %}
 

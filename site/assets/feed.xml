@@ -39,12 +39,6 @@ permalink: /feed.xml
       <name>{{ post.author | default: site.social.name }}</name>
     </author>
 
-  {% if post.categories %}
-    {% for category in post.categories %}
-    <category term="{{ category }}" />
-    {% endfor %}
-  {% endif %}
-
   <summary>{% include post-summary.html max_length=400 %}</summary>
 
   </entry>
