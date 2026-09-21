@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to River Studio!"
 date:   2026-03-18 21:41:10 +0200
 tags: studio update
+pin: true
 ---
 Hello there! River Studio is my solo-preneur studio for open source software specializing in Python, memes and community.
 
